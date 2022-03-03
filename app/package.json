@@ -4,7 +4,7 @@
   "description": "backend tdd com nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --timeout 2000 --exit"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,8 @@
   "devDependencies": {
     "chai": "^4.3.6",
     "chai-http": "^4.3.0",
-    "moch": "^0.0.1"
+    "moch": "^0.0.1",
+    "mocha": "^9.2.1"
   },
   "dependencies": {
     "body-parser": "^1.19.2",
